@@ -38,7 +38,7 @@ def add_corners(im, rad):
     return im
 
 im = Image.open('qr.png')
-im = add_corners(im, 100)
+im = add_corners(im,100)
 im.save('qr.png')
 
 
