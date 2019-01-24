@@ -16,7 +16,6 @@ im = qr.make_image(fill_color='#F9B957', back_color='#000000')
  
 
 
-#im = Image.open('OrginalQR.png')
 im = im.convert("RGBA")
 logo = Image.open('design.jpg')
 
